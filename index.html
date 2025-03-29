@@ -1,16 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div id="main">
-        <div id="page1">
-        <video src="https://thisismagma.com/wp-content/themes/magma/assets/home/hero/1.mp4?2" autoplay loop muted></video>
+      <div id="page1">
+        <nav>
+          <img src="Screenshot 2023-05-30 220719.png" alt="" />
+          <div id="right-nav">
+            <button>Book Demo</button>
+            <button><i class="ri-menu-line"></i></button>
+          </div>
+        </nav>
+        <div id="bottom-page1">
+          <h1>
+            Redefining Real <br />
+            Estate with <br />DePIN, Digital <br />Twins, & AI
+          </h1>
+          <div id="bottom-page1-inner">
+            <h3>
+              Unlock the $300+ trillion real estate market <br />
+              with the power of Digital Twin Tokens (DTT®).
+            </h3>
+            <button>Learn more</button>
+          </div>
         </div>
+        <video
+          src="https://thisismagma.com/wp-content/themes/magma/assets/home/hero/1.mp4?2"
+          autoplay
+          loop
+          muted
+        ></video>
+      </div>
+      <div data-scroll data-scroll-speed="-5" id="page2">
+        <h2>Unlocking the World’s Largest Asset Class</h2>
+        <h1>
+          <!-- Real estate, a $300Tn market, faces inefficiencies and environmental
+          challenges. Magma’s AI-driven platform leverages DePIN and
+          tokenization to connect buildings with Web3. -->
+          <span>Real</span> <span>estate,</span> <span>a</span>
+          <span>$300Tn</span> <span>market,</span> <span>faces</span>
+          <span>inefficiencies</span> <span>and</span>
+          <span>environmental</span> <span>challenges.</span>
+          <span>Magma’s</span> <span>AI-driven</span> <span>platform</span>
+          <span>leverages</span> <span>DePIN</span> <span>and</span>
+          <span>tokenization</span> <span>to</span> <span>connect</span>
+          <span>buildings</span> <span>with</span> <span>Web3.</span>
+        </h1>
+      </div>
     </div>
-</body>
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/gsap.min.js"
+      integrity="sha512-f6bQMg6nkSRw/xfHw5BCbISe/dJjXrVGfz9BSDwhZtiErHwk7ifbmBEtF9vFW8UNIQPhV2uEFVyI/UHob9r7Cw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/ScrollTrigger.min.js"
+      integrity="sha512-AcqPGqrrAEtEwe+ADO5R8RbdFi7tuU7b/A2cJJH0Im0D18NRk5p5s4B3E5PMuO81KFw0ClN7J5SHVUJz7KOb0A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
 </html>

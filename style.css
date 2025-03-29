@@ -1,7 +1,123 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-#main{
-    background-color: red;
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+    
+  position: relative;
+  overflow: hidden;
+}
+@font-face {
+  font-family: a;
+  src: url(./jost-variable.ttf);
+}
+@font-face {
+  font-family: b;
+  src: url(./KFOlCnqEu92Fr1MmEU9fBBc4\\(1\).ttf);
+}
+@font-face {
+  font-family: c;
+  src: url(./KFOmCnqEu92Fr1Mu4mxK\\(1\).ttf);
+}
+#page1 {
+  height: 100vh;
+  width: 100vw;
+  background-color: red;
+}
+
+#page1 > video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+#page1 > nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: yellow; */
+  height: 10vh;
+  width: 100vw;
+  position: absolute;
+  padding: 0 30px;
+}
+#page1 > nav > img {
+  width: 9%;
+  margin-top: -3vw;
+}
+#right-nav > button {
+  font-family: a;
+  font-size: 15px;
+  border-radius: 50px;
+  padding: 10px 30px;
+  border: 1px solid white;
+  color: white;
+  background: #0b48eb;
+}
+
+#bottom-page1 {
+    z-index: 2;
+    color: white;
+  position: absolute;
+  bottom: 35%;
+  left: 10%;
+  /* background-color: red; */
+  height: 100vh;
+  width: 50vw;
+}
+#bottom-page1 > h1 {
+    width: 100%;
+  font-family: a;
+  font-size: 6vw;
+  font-weight: 90;
+  padding: 20px;
+  line-height: 1;
+}
+#bottom-page1-inner {
+    padding: 0 10px;
+    font-family: a;
+    color: white;
+  position: absolute;
+  /* background-color: magenta; */
+  height: 15%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  
+}
+#bottom-page1-inner>button{
+    font-size: 1.2vw;
+    color: black;
+padding: 20px 30px;
+border-radius: 50px;
+border: 1px solid white;
+background: white;
+}
+#page2{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    font-family: a;
+    width: 100vw;
+    padding: 0 8vw;
+    color: white;
+    background-color: #0a3cce;
+    
+    position: relative;
+}
+#page2>h2{
+    margin-bottom: 3vw;
+}
+#page2>h1{
+    
+    font-size: 3vw;
+    width: 80%;
+    color: rgba(255, 255, 255, 0.499);
 }
