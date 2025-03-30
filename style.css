@@ -9,7 +9,7 @@ body {
   width: 100%;
 }
 #main {
-    
+    background-color: #0b48ed;
   position: relative;
   overflow: hidden;
 }
@@ -96,22 +96,11 @@ border-radius: 50px;
 border: 1px solid white;
 background: white;
 }*/
-#page2{z-index: -1;
-    display: flex;
-    align-items: start;
-    font-family: a;
-    justify-content: center;
-    flex-direction: column;
-    height:  100vh;
-    width: 100vw;
-    position: relative;
-    padding: 0vw 8vw;
-    color: #fff;
-    background-color: #0a3cce;
-} 
+
 .bottom-page1{
     position: absolute;
-    bottom: 5%;
+    margin-top: 20vw;
+    margin-left: 8vw;
     height: 35vh;
     width: 50vw;
     left: 10%;
@@ -125,7 +114,6 @@ background: white;
 }
 .bottom-page1-inner{
     position: absolute;
-    bottom: 0%;
     height: 35%;
     width: 100%;
     display: flex;
@@ -149,6 +137,20 @@ background: white;
     font-weight: 100;
     color: #fff;
 }
+#page2{
+    z-index: -1;
+    display: flex;
+    align-items: start;
+    font-family: a;
+    justify-content: center;
+    flex-direction: column;
+    height:  100vh;
+    width: 100vw;
+    position: relative;
+    padding: 0vw 8vw;
+    color: #fff;
+    background-color: #0a3cce;
+} 
 #page2>h2{
     margin-bottom: 3vw;
     font-weight: 100;
@@ -164,9 +166,42 @@ background: white;
     position: relative;
     height: 100vh;
     width: 100vw;
-    background-color: red;
+    background-color: rgb(255, 0, 0);
 }
 #page3{
     min-height: 100vh;
+    width: 100vw;
+    position:relative;
+
+}
+#page4{
+    font-family: a;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-self: start;
+    justify-content: center;
+    flex-direction: column;
+    color: #dadada69;
+}
+#page4>h3{
+    color: white;
+    margin-left: 8vw;
+    width: 90%;
+}
+#page4>h1{
+    margin-left: 8vw;
+    width: 70%;
+    font-size: 3vw;
+}
+#page5{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+#page5>canvas{
+    position: relative;
+    max-height: 100vw;
     width: 100vw;
 }
