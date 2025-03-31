@@ -48,7 +48,7 @@ gsap.to("#page2>h1>span", {
     end: `bottom top`,
     scroller: `#main`,
     scrub:.5,
-    markers: true,
+
   },
   stagger: 0.2,
   color: `#fff`,
@@ -226,7 +226,7 @@ gsap.to("#page4>h1>span", {
       end: `bottom top`,
       scroller: `#main`,
       scrub:.5,
-      markers: true,
+
     },
     stagger: 0.2,
     color: `#fff`,
@@ -400,7 +400,7 @@ gsap.to("#page6>h1>span", {
       end: `bottom top`,
       scroller: `#main`,
       scrub:.5,
-      markers: true,
+
     },
     stagger: 0.2,
     color: `#fff`,
